@@ -1,2 +1,6 @@
-# NetSolutions-Study
-Welcome to the **C Network Solutions Study** project! This repository is dedicated to learning and developing network solutions using the C programming language.
+# C 네트워크 솔루션 스터디
+
+## 폴더 구조
+
+- **examples**: 연습 코드가 포함된 폴더입니다
+- **study-materials**: 공부한 내용을 정리한 문서가 포함된 폴더입니다. 강의 노트, 튜토리얼, 참고 자료 등이 이 폴더에 있습니다.
