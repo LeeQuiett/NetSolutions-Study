@@ -28,3 +28,48 @@ int main(void) {
 	return 0;
 }
 ```
+
+### 세 정수의 누적 및 출력
+
+```c
+#include <stdio.h>
+
+int main(void) {
+	int nInput, nTotal;
+
+	//여기에 들어갈 코드를 작성하세요.
+
+	printf("Total: %d\n," nTotal);
+	return 0;
+}
+```
+
+```c
+입력 예:
+1
+2
+3
+
+출력 예:
+Total: 6
+```
+
+- 답안
+
+```c
+#include <stdio.h>
+
+int main(void) {
+	int nInput = 0, nTotal = 0;
+
+	scanf_s("%d", &nInput);
+	nTotal += nInput;
+	scanf_s("%d", &nInput);
+	nTotal += nInput;
+	scanf_s("%d%*c", &nInput);
+	nTotal += nInput;
+
+	printf("Total: %d", nTotal);
+	return 0;
+}
+```
