@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_exam", "..\21_exam\21_ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22_gugu", "..\22_gugu\22_gugu.vcxproj", "{E22228AF-D7F0-44F1-BBB7-76E45E90E920}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "23_exam", "..\23_exam\23_exam.vcxproj", "{F5740FD2-11FB-449B-826A-B548683CBE02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{E22228AF-D7F0-44F1-BBB7-76E45E90E920}.Release|x64.Build.0 = Release|x64
 		{E22228AF-D7F0-44F1-BBB7-76E45E90E920}.Release|x86.ActiveCfg = Release|Win32
 		{E22228AF-D7F0-44F1-BBB7-76E45E90E920}.Release|x86.Build.0 = Release|Win32
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Debug|x64.ActiveCfg = Debug|x64
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Debug|x64.Build.0 = Debug|x64
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Debug|x86.Build.0 = Debug|Win32
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Release|x64.ActiveCfg = Release|x64
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Release|x64.Build.0 = Release|x64
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Release|x86.ActiveCfg = Release|Win32
+		{F5740FD2-11FB-449B-826A-B548683CBE02}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
