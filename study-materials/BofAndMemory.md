@@ -24,15 +24,15 @@
 
 언제 에러가 날까?
 
-![image.png](https://github.com/LeeQuiett/NetSolutions-Study/blob/main/study-materials/images/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC/image.png)
+![image.png](images/BofAndMemory/image.png)
 
 메인 함수가 다 종료되고 나서야 힙 메모리를 썼는데 corruption이 났다고 에러를 낸다.
 
 위 코드를 11행까지 연산한 시점에서 보면
 
-![image.png](https://github.com/LeeQuiett/NetSolutions-Study/blob/main/study-materials/images/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC/image%201.png)
+![image.png](images/BofAndMemory/image1.png)
 
-![image.png](https://github.com/LeeQuiett/NetSolutions-Study/blob/main/study-materials/images/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC/image%202.png)
+![image.png](images/BofAndMemory/image2.png)
 
 위 창을 보면 주소
 
@@ -48,7 +48,7 @@
 
 번지를 보게 되면 fd fd fd fd가 저장되어 있는데 이를 카나리스(Canaries) 또는 카나리(canary)라고 하고 여기선 할당 받은 메모리와 그렇지 않은 메모리 사이에 위치해 있다.
 
-![image.png](https://github.com/LeeQuiett/NetSolutions-Study/blob/main/study-materials/images/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC/image%202.png)
+![image.png](images/BofAndMemory/image3.png)
 
 > 자세한건 위키백과 참조
 > 
@@ -58,8 +58,7 @@
 
 이제 12행의 할당된 메모리를 벗어난 쓰기 연산을 수행하게 되면
 
-![image.png](https://github.com/LeeQuiett/NetSolutions-Study/blob/main/study-materials/images/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC/image%204.png)
-
+![image.png](images/BofAndMemory/image4.png)
 이렇게 카나리가 덮어 씌워진 걸 볼 수 있다.
 
 그럼 저기다 대고 카나리를 쓰기하면?
