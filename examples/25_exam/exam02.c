@@ -2,13 +2,12 @@
 
 int main(void) {
 	int i = 0, j = 0;
-
+	
 	for (i = 0; i < 5; i++) {
-		for (j = i; j < 4; j++) {
-			printf("  ");
-		}
-		for (int k = 0; k < i + 1; k++) {
-			printf(" *");
-		}	printf("\n");
+		for (j = 0; j < 5; j++) {
+			if (i + j >= 4) printf("*\t");
+			else printf("\t");
+		} putchar('\n');
 	}
+	return 0;
 }
