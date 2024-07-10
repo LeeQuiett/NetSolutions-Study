@@ -136,3 +136,7 @@ echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 ![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F1b82b2e7-282d-4c6c-a727-be1148cce2ea%2FUntitled.png?table=block&id=17794d99-c319-4c53-8642-134e76b28368&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=2000&userId=&cache=v2)
 
 ## 버퍼 오버플로우 내기 실패..😢오늘은 일단 여기까지만 하고 나중에 다른 방법을 찾아보자..
+
+> 참고문헌
+> 
+> - 티오리-DreamHack https://learn.dreamhack.io/60#5
