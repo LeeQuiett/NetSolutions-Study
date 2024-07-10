@@ -11,7 +11,7 @@ int main(void) {
 	{
 		for (int j = 0; j < 4; j++)
 		{
-			printf("%d ", aList[i][j]);
+			printf("%d\t ", aList[i][j]);
 		} putchar('\n');
 	}
 	return 0;
