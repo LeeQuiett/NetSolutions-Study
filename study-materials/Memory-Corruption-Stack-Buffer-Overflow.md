@@ -135,7 +135,52 @@ echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 
 ![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F1b82b2e7-282d-4c6c-a727-be1148cce2ea%2FUntitled.png?table=block&id=17794d99-c319-4c53-8642-134e76b28368&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=2000&userId=&cache=v2)
 
-## 버퍼 오버플로우 내기 실패..😢오늘은 일단 여기까지만 하고 나중에 다른 방법을 찾아보자..
+## 버퍼 오버플로우 내기 실패..😢오늘은 일단 여기까지만 하고 나중에 다른 방법을 찾아보자.. 했는데 참여하고 있는 스터디 그룹의 찬수님이 도와주셨다!
+
+<aside>
+💡 메인에서 버퍼 스택을 선언하니까 성공했다!
+
+</aside>
+
+```c
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+
+void vulnerable_function(char *buffer, char *input)
+{
+char *p_buffer = buffer;
+    //strcpy(buffer, input);
+while (*input)
+*buffer++ = *input++;
+    printf("Buffer content: %s\n", p_buffer);
+}
+
+int main(int argc, char *argv[]) 
+{
+    int secret = 0;
+    char buffer[10];
+
+    if (argc < 2) {
+        printf("Usage: %s <input>\n", argv[0]);
+        return 1;
+    }
+
+    printf("Initial secret value: %d\n", secret);
+    vulnerable_function(buffer, argv[1]);
+    printf("Final secret value: %d\n", secret);
+
+    if (secret != 0) {
+        printf("Buffer overflow detected! Secret value has changed!\n");
+    }
+
+    return 0;
+}
+```
+
+![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2Fa3cd4f14-b117-4c57-8b41-8dbc38d5dda5%2FUntitled.png?table=block&id=64aebc7a-99e1-4cc4-be78-00c9d4b05b52&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=1420&userId=&cache=v2)
+
+---
 
 > 참고문헌
 > 
