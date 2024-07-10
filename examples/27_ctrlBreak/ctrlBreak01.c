@@ -4,8 +4,8 @@ int main(void) {
 	int i = 0;
 
 	for (i = 0; i < 10; i++) {
-		if (i == 5) {
-			break;
+		if (i > 4) {
+			continue;
 		}
 		printf("%dth\n", i);
 	}
