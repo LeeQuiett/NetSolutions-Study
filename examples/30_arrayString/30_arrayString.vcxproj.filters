@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="maxFromArray01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="maxFromArray02.c">
+    <ClCompile Include="arrString01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
