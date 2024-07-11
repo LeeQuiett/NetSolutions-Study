@@ -2,17 +2,20 @@
 
 int main(void) {
 	int list[5] = { 30,40,10,50,20 };
-	int temp = 0;
+	int minIndex = 0, temp = 0;
 
 	for (int i = 0; i < 5; i++)
 	{
-		for (int j = 0; j < 4; j++)
+		for (int j = i + 1; j < 5; j++)
 		{
-			if (list[j] > list[j + 1]) {
-				temp = list[j];
-				list[j] = list[j + 1];
-				list[j + 1] = temp;
+			if (list[minIndex] > list[j]) {
+				minIndex = j;
 			}
+ 		}
+		if (list[i] > list[minIndex]) {
+			temp = list[i];
+			list[i] = list[minIndex];
+			list[minIndex] = temp;
 		}
 	}
 	int k = 0;
@@ -20,6 +23,4 @@ int main(void) {
 		printf("%d ", list[k]);
 		k++;
 	}
-
-	return 0;
 }
