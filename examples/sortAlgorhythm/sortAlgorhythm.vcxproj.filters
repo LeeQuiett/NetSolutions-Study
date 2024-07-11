@@ -27,5 +27,8 @@
     <ClCompile Include="arrayCross01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arrayCross02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
