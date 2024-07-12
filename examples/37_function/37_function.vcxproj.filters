@@ -18,5 +18,8 @@
     <ClCompile Include="function01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="function03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
