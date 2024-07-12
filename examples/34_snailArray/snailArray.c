@@ -1,56 +1,25 @@
-#include <stdio.h>
+#include <stdio.h>	
 
 int main(void) {
-	int snail[5][5] = { '\0'};
-	int counter = 1;
-	int minI = 1;
+	int list[5][5] = { 0 };
+	int x = -1, y = 0, counter = 0;
+	int i = 0, j = 0, length = 9, direction = 1;
 
-	int flag = 1;
-	int maxLoop = 4;
-	int minLoop = -1;
+	for (length = 9; length > 0; length -= 2) {
+		for (i = 0; i < length; i++) {
+			if (i < (length / 2) + 1) x += direction;
+			else y += direction;
 
-	int i = 0, j = 0;
-
-	for (int k = 0; k < 5; k++)
-	{
-		for (j; j <= maxLoop && j >= minLoop; j += flag)
-		{
-			snail[i][j] = counter++;
+			list[y][x] = ++counter;
 		}
-		i += flag;
-		if (flag == 1) {
-			j--;
-		}
-		else if (flag == -1) {
-			j++;
-		} 
-		++minLoop;
-		for (i; i <= maxLoop && i >= minLoop; i += flag)
-		{
-			snail[i][j] = counter++;
-		}
-		if (flag == 1)
-		{
-			i--;
-		}
-		else if (flag == -1)
-		{
-			i++;
-		}
-		flag = -flag;
-		--maxLoop;
-		++minLoop;
-		j += flag;
+		direction = -direction;
 	}
-
 
 	for (int i = 0; i < 5; i++)
 	{
 		for (int j = 0; j < 5; j++)
 		{
-			printf("%d ", snail[i][j]);
+			printf("%d ", list[i][j]);
 		} putchar('\n');
 	}
-
-	return 0;
 }
