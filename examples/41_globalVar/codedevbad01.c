@@ -18,7 +18,7 @@ void initList(void) {
 void sortList(void) {
 	int temp = 0;
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 4; i++)
 	{
 		for (int j = i + 1; j < 5; j++)
 		{
