@@ -18,5 +18,8 @@
     <ClCompile Include="printMenu01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="printMenu02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
