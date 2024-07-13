@@ -24,5 +24,8 @@
     <ClCompile Include="funcDesign01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="fucnDesign02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
