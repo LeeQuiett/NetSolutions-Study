@@ -5,6 +5,7 @@ int getResult(void) {
 	int result = 0;
 	printf("성적(1~100)을 입력하세요. : ");
 	scanf_s("%d", &result);
+	if (result < 1 || result > 100) return 0;
 	return result;
 }
 
@@ -23,6 +24,10 @@ int main(void) {
 	int result = 0;
 
 	result = getResult();
+	if (result == 0) {
+		puts("ERROR: 올바른 값을 입력하세요!");
+		return 0;
+	}
 	printf("당신의 학점은: %c 입니다.", getGrade(result));
 
 	return 0;
