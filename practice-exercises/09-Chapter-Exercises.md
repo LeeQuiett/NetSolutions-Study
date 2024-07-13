@@ -102,7 +102,7 @@ int main(void) {
 
 ### 배열과 교차의 구현
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ea8dd16e-ce24-4633-b1ef-2f39a7414cd8/623da668-8f7b-4c29-9b73-bcc1fddf0bb8/Untitled.png)
+![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F623da668-8f7b-4c29-9b73-bcc1fddf0bb8%2FUntitled.png?table=block&id=86937abf-c7c9-4b5b-8ce6-bc60209013ea&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=740&userId=&cache=v2)
 
 - 답안-1
     - 열의 인덱스를 증가시키거나 감소시켜서 채우는 방식
@@ -222,7 +222,7 @@ int main(void) {
 
 ### 달팽이 배열 채우기
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ea8dd16e-ce24-4633-b1ef-2f39a7414cd8/cdc0599c-5223-43b0-9d0a-589f5700b7b9/Untitled.png)
+![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2Fcdc0599c-5223-43b0-9d0a-589f5700b7b9%2FUntitled.png?table=block&id=5576fc9b-63cf-49b3-a984-8a92ac756588&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=1060&userId=&cache=v2)
 
 - 답안
 
@@ -268,7 +268,7 @@ int main(void) {
 
 ### 5행 5열의 배열에 다음과 같이 채우고 출력
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ea8dd16e-ce24-4633-b1ef-2f39a7414cd8/4a340611-6ec3-4966-b643-f4556f38d2c9/Untitled.png)
+![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F4a340611-6ec3-4966-b643-f4556f38d2c9%2FUntitled.png?table=block&id=2b4ebd2a-8467-4d84-b209-80a4ef20f552&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=570&userId=&cache=v2)
 
 - 답안
 
