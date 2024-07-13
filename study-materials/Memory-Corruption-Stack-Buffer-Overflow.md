@@ -92,7 +92,7 @@ Buffer overflow detected! Secret value has changed!
 
 - 실제 출력😢 버퍼 오버플로우에 실패했다.
 
-![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F5e1edf2b-f663-4622-aa41-36323168cd85%2FUntitled.png?table=block&id=a8108300-52b2-4d86-a63f-143c9cb36db4&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=1420&userId=&cache=v2)
+![Untitled](https://frost-nerine-bfa.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fea8dd16e-ce24-4633-b1ef-2f39a7414cd8%2F5e1edf2b-f663-4622-aa41-36323168cd85%2FUntitled.png?table=block&id=3cf91c2d-3b7d-4b53-a924-b0ff6eea6094&spaceId=ea8dd16e-ce24-4633-b1ef-2f39a7414cd8&width=1420&userId=&cache=v2)
 
 아마 컴파일러가 스택 보호를 활성화하여 버퍼 오버플로우를 막고있고, ASLR (주소 공간 배치 무작위화) 가 활성화 되어 버퍼 오버플로우가 실패한 것 같다.
 
