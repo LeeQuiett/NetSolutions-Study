@@ -33,7 +33,7 @@ int main(void) {
 	while ((menu = printMenu()) != 0) {
 		if (menu == 1) {
 			age = setAge();
-			printf("당신의 요금은: %d", getFee(age));
+			printf("당신의 요금은: %d원 입니다.", getFee(age));
 			_getch();
 		}
 	}
