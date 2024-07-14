@@ -18,5 +18,8 @@
     <ClCompile Include="pointer01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pointer02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
