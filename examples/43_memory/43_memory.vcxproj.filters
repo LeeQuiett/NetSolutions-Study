@@ -30,5 +30,8 @@
     <ClCompile Include="ptrString02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ptrMalloc01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
