@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "44_hugeError", "..\44_hugeE
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_mem", "..\45_mem\45_mem.vcxproj", "{283460FD-FF1C-4B84-AD2E-08B373A49642}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_strstr", "..\46_strstr\46_strstr.vcxproj", "{2987E107-0335-48A1-825A-0F5939B34D3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -471,6 +473,14 @@ Global
 		{283460FD-FF1C-4B84-AD2E-08B373A49642}.Release|x64.Build.0 = Release|x64
 		{283460FD-FF1C-4B84-AD2E-08B373A49642}.Release|x86.ActiveCfg = Release|Win32
 		{283460FD-FF1C-4B84-AD2E-08B373A49642}.Release|x86.Build.0 = Release|Win32
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Debug|x64.ActiveCfg = Debug|x64
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Debug|x64.Build.0 = Debug|x64
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Debug|x86.Build.0 = Debug|Win32
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Release|x64.ActiveCfg = Release|x64
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Release|x64.Build.0 = Release|x64
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Release|x86.ActiveCfg = Release|Win32
+		{2987E107-0335-48A1-825A-0F5939B34D3C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
