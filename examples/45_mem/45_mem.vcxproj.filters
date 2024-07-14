@@ -18,5 +18,8 @@
     <ClCompile Include="ptrMemCmp01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ptrStrCmp02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
