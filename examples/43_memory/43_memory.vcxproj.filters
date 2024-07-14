@@ -42,5 +42,8 @@
     <ClCompile Include="mSize.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ptrMemCpy01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
