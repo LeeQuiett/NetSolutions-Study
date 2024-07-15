@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_ptrRealloc", "..\48_ptrR
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49_badPointer", "..\49_badPointer\49_badPointer.vcxproj", "{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50_arrayOfPtr", "..\50_arrayOfPtr\50_arrayOfPtr.vcxproj", "{25F349FD-7377-4613-94DB-C4ADF53EA97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x64.Build.0 = Release|x64
 		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x86.ActiveCfg = Release|Win32
 		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x86.Build.0 = Release|Win32
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Debug|x64.ActiveCfg = Debug|x64
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Debug|x64.Build.0 = Debug|x64
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Debug|x86.ActiveCfg = Debug|Win32
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Debug|x86.Build.0 = Debug|Win32
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Release|x64.ActiveCfg = Release|x64
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Release|x64.Build.0 = Release|x64
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Release|x86.ActiveCfg = Release|Win32
+		{25F349FD-7377-4613-94DB-C4ADF53EA97C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
