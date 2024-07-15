@@ -21,6 +21,6 @@ int main(void) {
 	printf("%c\n", astrList[2][3]);
 
 	printf("%s\n", *astrList);
-	printf("%c\n", *(*astrList + 1));
+	printf("%s\n", *(astrList + 1));
 	return 0;
 }
