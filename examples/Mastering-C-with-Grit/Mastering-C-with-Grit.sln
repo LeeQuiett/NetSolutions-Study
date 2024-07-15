@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_ptrnArray", "..\47_ptrnA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_ptrRealloc", "..\48_ptrRealloc\48_ptrRealloc.vcxproj", "{AF5C6231-25B6-45C4-9F24-C26DA8BFBB37}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49_badPointer", "..\49_badPointer\49_badPointer.vcxproj", "{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{AF5C6231-25B6-45C4-9F24-C26DA8BFBB37}.Release|x64.Build.0 = Release|x64
 		{AF5C6231-25B6-45C4-9F24-C26DA8BFBB37}.Release|x86.ActiveCfg = Release|Win32
 		{AF5C6231-25B6-45C4-9F24-C26DA8BFBB37}.Release|x86.Build.0 = Release|Win32
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Debug|x64.ActiveCfg = Debug|x64
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Debug|x64.Build.0 = Debug|x64
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Debug|x86.Build.0 = Debug|Win32
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x64.ActiveCfg = Release|x64
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x64.Build.0 = Release|x64
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x86.ActiveCfg = Release|Win32
+		{ABFE5608-A1F4-4525-99B8-011E45B5F0D3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
