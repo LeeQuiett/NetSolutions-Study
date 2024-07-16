@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "52_exam", "..\52_exam\52_ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "funcCallByVal", "..\funcCallByVal\funcCallByVal.vcxproj", "{E4019F59-3785-42CA-A26B-45FA64AFA3FA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "54_exam", "..\54_exam\54_exam.vcxproj", "{7AA66EAA-56A7-4081-9568-978F910C32B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -551,6 +553,14 @@ Global
 		{E4019F59-3785-42CA-A26B-45FA64AFA3FA}.Release|x64.Build.0 = Release|x64
 		{E4019F59-3785-42CA-A26B-45FA64AFA3FA}.Release|x86.ActiveCfg = Release|Win32
 		{E4019F59-3785-42CA-A26B-45FA64AFA3FA}.Release|x86.Build.0 = Release|Win32
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Debug|x64.ActiveCfg = Debug|x64
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Debug|x64.Build.0 = Debug|x64
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Debug|x86.Build.0 = Debug|Win32
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Release|x64.ActiveCfg = Release|x64
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Release|x64.Build.0 = Release|x64
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Release|x86.ActiveCfg = Release|Win32
+		{7AA66EAA-56A7-4081-9568-978F910C32B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
