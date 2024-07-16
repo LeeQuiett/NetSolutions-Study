@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 void myStrcpy(char* dst, int size, char* src) {
-	int length = 0;
-	while (src[length] != '\0') {
-		dst[length] = src[length];
-		length++;
+	for (int i = 0; i < size; i++)
+	{
+		dst[i] = src[i];
 	}
 }
 
