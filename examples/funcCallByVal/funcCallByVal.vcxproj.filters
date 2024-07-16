@@ -27,5 +27,8 @@
     <ClCompile Include="funcGetName01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="funcGetName02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
