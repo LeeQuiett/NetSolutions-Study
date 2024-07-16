@@ -26,8 +26,8 @@ int main(void) {
 	//대상 메모리에 문자열을 붙인다.
 	pszEnd = mystrcat(szPath, "C:\\Program Files\\");
 	//앞서 반환받은 주소를 첮 번째 인수로 호출해 문자열을 붙인다.
-	pszEnd = mystrcat(szPath, "CHS\\");
-	pszEnd = mystrcat(szPath, "C programming");
+	pszEnd = mystrcat(pszEnd, "CHS\\");
+	pszEnd = mystrcat(pszEnd, "C programming");
 
 	puts(szPath);
 	return 0;
