@@ -36,5 +36,8 @@
     <ClCompile Include="struct03.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="structddanzi03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
