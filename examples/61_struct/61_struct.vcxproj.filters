@@ -24,5 +24,11 @@
     <ClCompile Include="structddanzi01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="structddanzi02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strctfunc01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
