@@ -21,5 +21,8 @@
     <ClCompile Include="struct02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="structddanzi01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
