@@ -12,6 +12,7 @@ typedef struct MYDATA {
 	int age;
 	double data;
 } MYDATA;
+#pragma pack(pop)
 
 int main(void) {
 	printf("%d\n", sizeof(USERDATA));
