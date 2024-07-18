@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileWrite01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FileFread01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FileFseek01.c">
+    <ClCompile Include="exam01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
