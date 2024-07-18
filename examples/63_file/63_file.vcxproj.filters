@@ -30,5 +30,8 @@
     <ClCompile Include="filefgetc01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="filefgets01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
