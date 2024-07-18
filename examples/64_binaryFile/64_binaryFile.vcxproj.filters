@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="filefopen01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="fileclose01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="filefprintf01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="filefscanf01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="filefgetc01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="filefgets01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="filefflush01.c">
+    <ClCompile Include="FileWrite01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
